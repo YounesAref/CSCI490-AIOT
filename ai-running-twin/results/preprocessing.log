@@ -1,0 +1,145 @@
+{
+  "raw_sha256": "e9658d4130c1655b187e2aeaca1e6c74815d90c5068d2f10f8ddcd0a3bcaccd5",
+  "exploration": {
+    "selected_workouts": 200,
+    "selected_users": 3,
+    "measurement_count": 100000,
+    "available_fields": [
+      "altitude",
+      "gender",
+      "heart_rate",
+      "id",
+      "latitude",
+      "longitude",
+      "speed",
+      "sport",
+      "timestamp",
+      "url",
+      "userId"
+    ],
+    "sport_counts": {
+      "run": 200
+    },
+    "missing_measurements": {
+      "timestamp": 0,
+      "heart_rate": 0,
+      "speed": 99000,
+      "altitude": 0,
+      "latitude": 0,
+      "longitude": 0
+    },
+    "missing_percent": {
+      "timestamp": 0.0,
+      "heart_rate": 0.0,
+      "speed": 99.0,
+      "altitude": 0.0,
+      "latitude": 0.0,
+      "longitude": 0.0
+    },
+    "workouts_missing_field": {
+      "timestamp": 0,
+      "heart_rate": 0,
+      "speed": 198,
+      "altitude": 0,
+      "latitude": 0,
+      "longitude": 0
+    },
+    "array_length_mismatches": {
+      "timestamp": 0,
+      "heart_rate": 0,
+      "speed": 198,
+      "altitude": 0,
+      "latitude": 0,
+      "longitude": 0
+    },
+    "numeric_summary": {
+      "timestamp": {
+        "count": 100000.0,
+        "mean": 1381418441.27608,
+        "std": 33901754.68078622,
+        "min": 1330038068.0,
+        "25%": 1350381122.25,
+        "50%": 1377952642.5,
+        "75%": 1414289400.0,
+        "max": 1451592715.0
+      },
+      "heart_rate": {
+        "count": 100000.0,
+        "mean": 139.44541,
+        "std": 16.9807438997,
+        "min": 40.0,
+        "25%": 130.0,
+        "50%": 141.0,
+        "75%": 151.0,
+        "max": 237.0
+      },
+      "speed": {
+        "count": 1000.0,
+        "mean": 12.8774592,
+        "std": 1.0780937701,
+        "min": 2.6064,
+        "25%": 12.5127,
+        "50%": 12.9708,
+        "75%": 13.4316,
+        "max": 17.6148
+      },
+      "altitude": {
+        "count": 100000.0,
+        "mean": 199.8442281,
+        "std": 266.9491279009,
+        "min": -360.8,
+        "25%": 34.6,
+        "50%": 47.8,
+        "75%": 605.9625,
+        "max": 740.673
+      },
+      "latitude": {
+        "count": 100000.0,
+        "mean": 48.7436109143,
+        "std": 5.8486797685,
+        "min": 33.4365779,
+        "25%": 40.4389921684,
+        "50%": 52.1913519,
+        "75%": 52.214208925,
+        "max": 55.8917196
+      },
+      "longitude": {
+        "count": 100000.0,
+        "mean": 3.5223287912,
+        "std": 9.7429988519,
+        "min": -111.9505274,
+        "25%": -3.9708075,
+        "50%": 6.88172855,
+        "75%": 6.932695,
+        "max": 12.67976
+      }
+    }
+  },
+  "preprocessing": {
+    "raw_measurements": 100000,
+    "invalid_timestamp": 0,
+    "invalid_heart_rate": 0,
+    "invalid_speed": 0,
+    "invalid_altitude": 0,
+    "invalid_latitude": 0,
+    "invalid_longitude": 0,
+    "removed_missing_timestamp_or_hr": 0,
+    "duplicate_timestamps_collapsed": 16,
+    "clean_measurements": 99984,
+    "speed_values_derived_from_gps": 98231,
+    "speed_missing_after_derivation": 753,
+    "large_gaps": 572,
+    "empty_hr_bins": 19904,
+    "resampled_bins": 99332,
+    "segments": 772,
+    "candidate_windows": 95378,
+    "feature_windows": 71312,
+    "rejected_windows_missing_data": 24066
+  },
+  "workouts_with_features": 200,
+  "workouts_without_features": 0,
+  "max_gap_seconds": 30,
+  "resample_seconds": 10,
+  "observation_seconds": 30,
+  "forecast_seconds": 30
+}
